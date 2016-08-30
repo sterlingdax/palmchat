@@ -1,8 +1,6 @@
 # topics include ham radios, politics, art, motorcycles, cars, palm pilots, 
 # computers, movies, music, maybe all under topic class, or subclass?
 
-
-
 from sys import exit
 import time
 import random
@@ -11,7 +9,10 @@ import random
 print ">_Login ID:"
 login = raw_input (">_")
 print ">_irssi"
-time.sleep(2) #look for a way to pass this time, maybe with dots?
+time.sleep(2) 
+
+#look for a way to pass this time, maybe with dots?
+
 print ">_/connect irc.oftc.net"
 time.sleep(2)
 print ">_/join #Palmchat"
@@ -36,9 +37,7 @@ class topic(object):
 		if "obama" in prompt:
 			return 'obama'
 
-
 class bush(topic):
-
 	def conversation(self):
 		print ">_aaron: I blame Bush!"
 		print ">_aaron: come to think of it..OBAMA too!"
@@ -56,9 +55,7 @@ class bush(topic):
 			print ">_aaron: What are you, some sort of Tea party Hack?"
 			return 'topic'
 
-
 class ham(topic):
-
 	def conversation(self):
 		print ">_Mike_W: I like radios!"
 		print ">_irq: You mean HAM radio, if you going to talk about it, get it right!"
@@ -76,4 +73,6 @@ class ham(topic):
 			print ">_irq: If you didn't care, why did you ask?"
 			return 'topic'
 
+class obama(topic):
+	def conversation(self):
 
