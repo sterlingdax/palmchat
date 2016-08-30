@@ -1,11 +1,5 @@
-# Make a game, using classes they said
-# I just looked back at them blankly...
-
 # topics include ham radios, politics, art, motorcycles, cars, palm pilots, 
 # computers, movies, music, maybe all under topic class, or subclass?
-# // TODO Finish this one day, please!
-# // NOTE The #Palmchat guys thought it was funny, at least!
-
 
 
 
