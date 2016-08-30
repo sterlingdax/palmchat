@@ -39,6 +39,8 @@ class topic(object):
 			return 'ham'
 		if "bush" in prompt:
 			return 'bush'
+		if "obama" in prompt:
+			return 'obama'
 
 
 class bush(topic):
