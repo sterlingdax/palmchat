@@ -1,5 +1,6 @@
 #! /usr/bin/env python3
 
+# So just the line above doesnt seem to work, have to start using python3 programp.py to start
 # New version of Palmchat game
 
 # topic ideas: iphone, ipad, sysadmin, camera gear,
