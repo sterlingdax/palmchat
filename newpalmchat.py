@@ -1,3 +1,5 @@
+#! /usr/bin/env python3
+
 # New version of Palmchat game
 
 # topic ideas: iphone, ipad, sysadmin, camera gear,
@@ -13,13 +15,13 @@
 
 def thedon():
 	print('<irq>what the literal fuck?')
-	print('<irq>if that situation happened to me, i would hunt down the guy who put a password in it and destroy his family and his next 3 generations of family')
+	print('<irq>if that situation happened to me, i would hunt down the guy who put a password in 		  it and destroy his family and his next 3 generations of family')
 	prompt()
 	
 	
 def change():
-	print('<pthree>watch how you speak about Obama! I was able to have TWO children due to Obamacare!')
-	print('<pthree>otherwise it would have been too expensive to get them tattooed at such a young age.')
+	print('<pthree>watch how you speak about Obama! I was able to have TWO children due to 				  Obamacare!')
+	print('<pthree>otherwise it would have been too expensive to get them tattooed at such a young 		  age.')
 	prompt()
 	
 	
@@ -32,7 +34,7 @@ def phone():
 	
 	
 def stream():
-	print("<pilot518>now you're talking! Kodi is awesome, I even stay under the radar because I stream, not torrent")
+	print("<pilot518>now you're talking! Kodi is awesome, I even stay under the radar because I 		  stream, not torrent")
 	print("<irq>you do know that you are on this radar? Right?")
 	print("<pilot518>what!!? I'm just as bad as those no good torrent thieves!")
 	print('<irq>yes, pilot, you are just as evil and terrible as me (you wish!)')
