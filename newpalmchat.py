@@ -9,7 +9,7 @@
 # Syntax for the login:
 # print('Comput-0:~ ' + UserName + '$'))
 
-def trump():
+def thedon():
 	print('<irq>what the literal fuck?')
 	print('<irq>if that situation happened to me, i would hunt down the guy who put a password in it and destroy his family and his next 3 generations of family')
 	return 'topic'
@@ -17,8 +17,10 @@ def trump():
 
 def prompt():
 	topic = input('[#palmchat] ')
-	if 'trump' in topic:
-		return 'trump'
+	if "trump" in topic:
+		thedon()
+	else:
+		prompt()
 		
 
 
