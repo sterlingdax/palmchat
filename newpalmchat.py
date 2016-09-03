@@ -25,7 +25,7 @@ users = ['aaron','Austin','Cloud_Strife','CosmicRay','dampeoples','irq','liiwi',
 
 def thedon():
 	print('<irq>what the literal fuck?')
-	print('<irq>if that situation happened to me, i would hunt down the guy who put a password in it and destroy his family and his next 3 generations of family')
+	print('<irq>if that situation happened to me, i would hunt down the guy who put a password in 		  it and destroy his family and his next 3 generations of family')
 	prompt()
 	
 	
@@ -60,7 +60,7 @@ def mr():
 	prompt()
 	
 def stream():
-	print("<pilot518>now you're talking! Kodi is awesome, I even stay under the radar because I stream, not torrent")
+	print("<pilot518>now you're talking! Kodi is awesome, I even stay under the radar because I 		  stream, not torrent")
 	print("<irq>you do know that you are on this radar? Right?")
 	print("<pilot518>what!!? I'm just as bad as those no good torrent thieves!")
 	print('<irq>yes, pilot, you are just as evil and terrible as me (you wish!)')
