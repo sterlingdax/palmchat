@@ -1,5 +1,6 @@
 # Newwwwwwwwww #Palmchatttttttt
 import time
+import sys
 
 print("\n" * 80)
 UserName = input('Login ID: ')
@@ -11,13 +12,14 @@ for i in range (3):
 	time.sleep(1)
 print('\n')
 print('Welcome to Palmchat')
-print('Topic: Eat your drugs, stay in vegetables and don't do school.')
+print("Topic: Eat your drugs, stay in vegetables and don't do school.")
+
 # topic ideas: sysadmin, camera gear,
 # TV Shows: Game of Thrones, narcos
 # Use the prompt instead of the built in prompt, in possible?
 # to make it look like actually using irssi
 
-users = ['aaron','Austin','Cloud_Strife','CosmicRay','dampeoples','irq','liiwi','LonEagle','Mike_W','pilot518','pthree','tomcatt1','Worf']
+users = ['aaron', 'Austin', 'Cloud_Strife','CosmicRay', 'dampeoples', 'irq', 'liiwi', 'LonEagle', 		'Mike_W', 'pilot518', 'pthree', 'tomcatt1', 'Worf']
 
 
 # add random quips from people, just to keep conversation going
@@ -37,10 +39,11 @@ def pro():
 	
 	
 def change():
-	print('<pthree>watch how you speak about Obama! I was able to have TWO children due to Obamacare!')
-	print('<pthree>otherwise it would have been too expensive to get them tattooed at such a young age.')
+	print('<pthree>watch how you speak about Obama! I was able to have TWO children due to 			Obamacare!')
+	print('<pthree>otherwise it would have been too expensive to get them tattooed at such a young 	age.')
 	print('pilot518>yah social medicine!')
 	prompt()
+	
 	
 # Put an actual link here, not sure how to do that in code!
 def phone():
@@ -53,17 +56,51 @@ def phone():
 	
 def mr():
 	print('<pilot518>started watching this show recently')
-	print('<dampeoples>yeah me too, I wonder how many people got confused downloading the show with the names')
+	print('<dampeoples>yeah me too, I wonder how many people got confused downloading the show     	with the names')
 	print('Worf>you mean besides you?')
 	print('<dampeoples>...(yes, me)')
 	print('<everyone else!> lol!')
 	prompt()
+	
 	
 def stream():
 	print("<pilot518>now you're talking! Kodi is awesome, I even stay under the radar because I 		  stream, not torrent")
 	print("<irq>you do know that you are on this radar? Right?")
 	print("<pilot518>what!!? I'm just as bad as those no good torrent thieves!")
 	print('<irq>yes, pilot, you are just as evil and terrible as me (you wish!)')
+	prompt()
+	
+	
+def code():
+	print("<aaron>I think I'm going to write a book about programming in Django and I'm going to 		 call it 'Django Unchained'")
+	print('<everyone else>...')
+	prompt()
+
+
+def eye():
+	print("<irq>they should call this phone the iPhone 6ss")
+	prompt()
+
+
+def noti():
+	print("<tomcatt1>i am not a bot")
+	print("<tomcatt1>i I do occasionally come in here and read back to see what's going on")
+	prompt()
+
+
+def food():
+	print("<dampeoples>I really need to go get something more appealing than this to eat 😞")
+	print("<dampeoples>Boston Market Salisbury Stake TV dinner")
+	print("<irq>Stake lol")
+	print("<irq>sort of like Cheez")
+	print("<irq>perhaps i shall have a Cheez Stake")
+	prompt()
+	
+	
+def string():
+	print("<LonEagle>Kang broke a mandolin string")
+	print(">CosmicRay>yeah, at the Mishawaka Amphitheater")
+	print("<Austin>October 6, 1996, i think?")
 	prompt()
 
 
@@ -82,16 +119,22 @@ def prompt():
 		pro()
 	elif "robot" in topic:
 		mr()
+	elif "program" in topic:
+		code()
+	elif "iphone" in topic:
+		eye()
+	elif "lurk" in topic:
+		noti()
+	elif "eat" in topic:
+		food()
+	elif "cheese" in topic:
+		string()
+	elif "quit" in topic:
+		sys.exit('Goodby!')
 	else:
+		print("<pthree>ever since the string cheese incident, we don't speak of that here")
 		prompt()
 		
-
-
-
-
-
-
-
 prompt()
 
 	
