@@ -102,6 +102,19 @@ def string():
 	print(">CosmicRay>yeah, at the Mishawaka Amphitheater")
 	print("<Austin>October 6, 1996, i think?")
 	prompt()
+	
+	
+def joshua():
+	print("<joshua>do you want to play a game")
+	game = input('[#palmchat] ')
+	game = game.lower()
+	if game == 'yes':
+		print("<joshua>Love to. How about Global Thermonuclear War.")
+	elif game == 'no':
+		print("<joshua>")
+	else:
+		print("<joshua>You have a golden opportunity to talk to a War Games icon and you fuck it up, way to go!")
+		joshua()
 
 
 def prompt():
@@ -127,6 +140,8 @@ def prompt():
 		noti()
 	elif "eat" in topic:
 		food()
+	elif "game" in topic:
+		joshua()
 	elif "cheese" in topic:
 		string()
 	elif "quit" in topic:
