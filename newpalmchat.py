@@ -74,6 +74,8 @@ def stream():
 def code():
 	print("<aaron>I think I'm going to write a book about programming in Django and I'm going to 		 call it 'Django Unchained'")
 	print('<everyone else>...')
+	print('<dampeoples>somethign something smartass-like')
+	print("<aaron>good one dampeoples. Don't you have some direct mail pieces to mangle?")
 	prompt()
 
 
@@ -111,7 +113,7 @@ def joshua():
 	if game == 'yes':
 		print("<joshua>Love to. How about Global Thermonuclear War.")
 	elif game == 'no':
-		print("<joshua>")
+		print("<joshua>The only winning move is not to play")
 	else:
 		print("<joshua>You have a golden opportunity to talk to a War Games icon and you fuck it up, way to go!")
 		joshua()
