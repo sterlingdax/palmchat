@@ -1,4 +1,5 @@
 # Newwwwwwwwww #Palmchatttttttt
+# An, ahem, adventure game in the spirit of Zork, Adventure
 import time
 import sys
 
@@ -116,7 +117,15 @@ def joshua():
 		print("<joshua>The only winning move is not to play")
 	else:
 		print("<joshua>You have a golden opportunity to talk to a War Games icon and you fuck it up, way to go!")
-		joshua()
+		prompt()
+		
+def infocom():
+	print("<pthree>You are standing in an open field west of a white house, with a boarded front door. There is a small mailbox here.")
+	print("<dampeoples>See! I told you pthree was a robot!")
+	print("<aaron>and I thought it was tomcatt!")
+	print("<pthree>You were both eaten by a Grue. Game Over Bitches.")
+	prompt()
+	
 
 
 def prompt():
@@ -146,6 +155,8 @@ def prompt():
 		joshua()
 	elif "cheese" in topic:
 		string()
+	elif "zork" in topic:
+		infocom()
 	elif "quit" in topic:
 		sys.exit('Goodby!')
 	else:
