@@ -1,5 +1,10 @@
 # Newwwwwwwwww #Palmchatttttttt
 # An, ahem, adventure game in the spirit of Zork, Adventure
+# But those games are both tedious and boring, so I decided
+# To make a game that was even more tedious and more boring
+# By basing it off of my favorite people slash IRC channel
+# This, plus a lot of idle time, is exactly what happens
+
 import time
 import sys
 
@@ -29,6 +34,9 @@ users = ['aaron', 'Austin', 'Cloud_Strife','CosmicRay', 'dampeoples', 'irq', 'li
 def thedon():
 	print('<irq>what the literal fuck?')
 	print('<irq>if that situation happened to me, i would hunt down the guy who put a password in 		  it and destroy his family and his next 3 generations of family')
+	print('<dampeoples>But, but we were talking about Donald Trump?')
+	print("<irq>I was too, what's your point?")
+	print("<dampeoples>oh... nothing!")
 	prompt()
 	
 	
@@ -126,7 +134,22 @@ def infocom():
 	print("<pthree>You were both eaten by a Grue. Game Over Bitches.")
 	prompt()
 	
+	
+def freaky():
+	print("<dampeoples>I forgot my fucking pants again!")
+	print("<dampeoples>I just have two options...")
+	print("<Cloud_Strife>also, while dp is here, anyone notice his only options are rubber and leather?")
+	print("dampeoples smacks Cloud_Strife with a large trout")
+	prompt()
 
+	
+# The <Worf> strikethrough looks funny on the f, is it just because of the casing, or should I find another person to be Colonel	
+def monty():
+	print("[Console] wget http://www.fish-slapping-dance.mov")
+	print("<Cosmic_Ray>Ah yeah, classic, that's a good one!")
+	print("<irq>That's one of my favorite Monty Python Sketches, when the guy whips out that large fish, I fell out of my chair!")
+	print("\u0336".join('<Worf>') + "\u0336""<Colonel>Right! Stop That! It's far too silly!")
+	prompt()
 
 def prompt():
 	topic = input('[#palmchat] ')
@@ -157,6 +180,10 @@ def prompt():
 		string()
 	elif "zork" in topic:
 		infocom()
+	elif "pants" in topic:
+		freaky()
+	elif "trout" in topic:
+		monty()
 	elif "quit" in topic:
 		sys.exit('Goodby!')
 	else:
