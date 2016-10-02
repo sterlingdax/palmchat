@@ -143,7 +143,26 @@ def freaky():
 	print("< Cloud_Strife> also, while dp is here, anyone notice his only options are rubber and leather?")
 	print("dampeoples smacks Cloud_Strife with a large trout")
 	prompt()
-
+	
+	
+def llcoolj():
+	print("< irq> mike, I have like seven thousand ham radio questions for you")
+	print("< irq> but I have to get out of bed first before I can ask and I know you're gonna be leaving work soon")
+	print("< irq> will you be online from home tonight?")
+	print("[26 minutes later...]")
+	print("< irq> Mike_W: did i scare you away 😕")
+	prompt() 
+	
+	
+def pogo():
+	print("< aaron> my kids really like that 'Secret Life of Pets'")
+	print("< dampeoples> you like System of a Down? The song in the commercial?")
+	print("< dampeoples> I laughed for a good hour after seeing that, the Bounce! song is about an orgy")
+	print("< dampeoples> or at least that is the best guess")
+	print("< dampeoples> Movie was good though!")
+	print("< aaron> I bet...")
+	prompt()
+	
 	
 # The <Worf> strikethrough looks funny on the f, is it just because of the casing, or should I find another person to be Colonel	
 def monty():
@@ -186,6 +205,10 @@ def prompt():
 		freaky()
 	elif "trout" in topic:
 		monty()
+	elif "ham" in topic:
+		llcoolj()
+	elif "bounce" in topic:
+		pogo()
 	elif "quit" in topic:
 		sys.exit('Goodby!')
 	else:
